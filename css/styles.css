@@ -67,6 +67,7 @@ a {
   color: var(--мain-color);
 }
 .btn {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -440,6 +441,9 @@ a {
 .footer-link:focus {
   color: var(--accent-color);
 }
+.footer-box1 {
+  flex-grow: 1;
+}
 .footer-box2 {
   margin-left: 70px;
 }
@@ -515,9 +519,7 @@ a {
   margin-left: 15px;
 }
 .footer-icon-send {
-  position: relative;
-  top: 50%;
-  transform: translateY(-75%);
+  margin-left: 10px;
   fill: var(--second-color);
 }
 
@@ -751,7 +753,6 @@ a {
 }
 .modal-field {
   margin-top: 20px;
-  margin-left: 13px;
 }
 .policy-text {
   font-weight: normal;
@@ -777,6 +778,7 @@ a {
   display: block;
 }
 .check-text {
+  justify-content: center;
   font-size: 14px;
   color: var(--мain-color);
   display: flex;
